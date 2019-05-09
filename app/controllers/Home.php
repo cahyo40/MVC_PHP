@@ -8,7 +8,4 @@ class Home extends Controller{
         ];
         $this->viewT('home/index',$data);
     }
-    public function homes(){
-        echo "ini ya home";
-    }
 }
